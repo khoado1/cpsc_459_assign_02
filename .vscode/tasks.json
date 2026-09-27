@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile ScroogeCoin",
+            "type": "shell",
+            "command": "javac -cp '.:rsa.jar' *.java",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": "$javac",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

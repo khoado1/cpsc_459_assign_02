@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run TestTxHandler",
+            "request": "launch",
+            "mainClass": "TestTxHandler",
+            "cwd": "${workspaceFolder}",
+            "classPaths": [
+                "${workspaceFolder}",
+                "${workspaceFolder}/rsa.jar",
+                "${workspaceFolder}/scroogeCoinGrader.jar",
+                "${workspaceFolder}/algs4.jar"
+            ],
+            "preLaunchTask": "Compile ScroogeCoin"
+        }
+    ]
+}
