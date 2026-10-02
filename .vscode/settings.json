@@ -1,4 +1,8 @@
 {
+    "java.server.launchMode": "Standard",
+    "java.project.sourcePaths": [
+        "."
+    ],
     "java.project.referencedLibraries": [
         "rsa.jar"
     ]
