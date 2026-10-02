@@ -9,9 +9,7 @@
             "cwd": "${workspaceFolder}",
             "classPaths": [
                 "${workspaceFolder}",
-                "${workspaceFolder}/rsa.jar",
-                "${workspaceFolder}/scroogeCoinGrader.jar",
-                "${workspaceFolder}/algs4.jar"
+                "${workspaceFolder}/rsa.jar"
             ],
             "preLaunchTask": "Compile ScroogeCoin"
         }
